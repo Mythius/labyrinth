@@ -1,0 +1,58 @@
+*{
+	user-select: none;
+}
+
+body{
+	text-align: center;
+	background-image: url('assets/background.png');
+	/*background-size: cover;*/
+}
+body>*{
+	margin: auto;
+}
+login{
+	opacity: .9;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: black;
+	display: block;
+	width: 500px;
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+login>*{
+	margin: auto;
+	display: block;
+	width: 80%;
+	height: 2em;
+}
+input,button{
+	background-color: #222;
+	color: white !important;
+	font-weight: bold;
+	border: 2px solid white;
+	outline: 0;
+	padding: 2px;
+	text-align: center;
+	font-size: 18px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+input:hover,button:hover{
+	background-color: #444;
+}
+canvas{
+	background-color: black;
+	image-rendering: pixelated;
+}
+game{
+	background-color: black;
+	display: block;
+	width: 80%;
+	height: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
